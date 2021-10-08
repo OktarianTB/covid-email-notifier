@@ -1,2 +1,2 @@
-# covid-email-notifier
-A daily email notifier with the latest Covid news, using Twilio SendGrid.
+# Covid Email Notifier
+A daily email notifier with the latest Covid statistics, using Twilio SendGrid!
