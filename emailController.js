@@ -22,8 +22,8 @@ exports.sendEmail = async () => {
     await getUnitedKingdomVaccinationStatistics();
 
   const msg = {
-    to: "oktotb@gmail.com", // Change to your recipient
-    from: "oktotb@gmail.com", // Change to your verified sender
+    to: process.env.EMAIL, // Change to your recipient
+    from: process.env.EMAIL, // Change to your verified sender
     subject: "[CovidTracker] Daily Update (" + getDate() + ")",
     text: `
     Here's your daily recap:
